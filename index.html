@@ -11,27 +11,53 @@
     <link rel="stylesheet" href="components/subtitle.css">
     <link rel="stylesheet" href="components/box.css">
     <link rel="stylesheet" href="components/button.css">
+    <link rel="stylesheet" href="components/action.css">
+    <link rel="stylesheet" href="components/header.css">
+    <link rel="stylesheet" href="components/banner.css">
+    <link rel="stylesheet" href="components/banner-skills.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1 class="titulo">Abraham Licá</h1>
         <nav>
-            <a href="">Skills</a>
-            <a href="">Projetos</a>
-            <a href="">Sobre</a>
-            <a href="">Contatos</a>
+            <a class="action" href="#">Skills</a>
+            <a class="action" href="#">Projetos</a>
+            <a class="action" href="#">Sobre</a>
+            <a class="action" href="#">Contatos</a>
             <a class="button" href="">Download CV</a>
         </nav>
     </header>
 
-        <div id="box">
-            <h1 class="titulo">Abraham Licá</h1>
-            <h2 class="subtitle">FrontEnd Developer</h2>
-        </div>
+        <section class="banner">
+            <div class="wrapper">
+                <div class="box">
+                    <h1 class="titulo">Abraham Licá</h1>
+                    <h2 class="subtitle">FrontEnd Developer</h2>
+                </div>
+                <div class="navigation">
+                    <a class="button" href="">Download CV</a>
+                    <a class="button" href="">Contatos</a>
+                </div>
+            </div>
+        </section>
 
-        <a class="button" href="">Download CV</a>
-        <a class="button" href="">Contatos</a>
-        <button class="button">Coiso</button>
+        <section class="banner-skills">
+            <h2 id="title-skills">Skills</h2>
+
+            <dl>
+                <dt>HTML</dt>
+                <dd>
+                    <img src="assets/img/html.png" alt="">
+                </dd>
+                <dd>
+                    <progress max="100" value="70">70%</progress>
+                </dd>
+            </dl>
+            
+
+            
+        </section>
+        
             
     
 </body>

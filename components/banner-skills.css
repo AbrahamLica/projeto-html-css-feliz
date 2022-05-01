@@ -1,0 +1,15 @@
+.banner-skills{
+    background-color: #312DF5;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid black;
+    height: 730px;
+    text-align: center;
+}
+
+#title-skills{
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+}
+
